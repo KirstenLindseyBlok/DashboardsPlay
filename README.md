@@ -1,5 +1,7 @@
 # DashboardsPlay
 
+##start.py
+
 Lines 1 to 4 import the required libraries.
 Each library provides a building block for yout applircation:
 - dash helps you initialise your application
@@ -47,3 +49,13 @@ The debug=True parameter from app.run_server enables the hot-reloading option in
 you make a change to your app, it reloads automatically, without you having to restart the server.
 
 run the code like you normally would and you will get a webadress to open in your preferred browser. 
+
+##styling.py
+
+lines 11 to 18 specify an external css file, a font family, that you want to load in your application. 
+External files are added to the head tag of your application and loaded before the body of your application loads. 
+You use the external_stylesheets argument for adding external CSS files or external_scripts for external JavaScript 
+files like Google Analytics.
+
+line 19 set the title of your application. This is the text that appears in the title bar of your web browser, in Google
+search results, and in social media cards when you share your site. 
