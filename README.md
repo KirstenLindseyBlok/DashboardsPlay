@@ -59,3 +59,24 @@ files like Google Analytics.
 
 line 19 set the title of your application. This is the text that appears in the title bar of your web browser, in Google
 search results, and in social media cards when you share your site. 
+
+lines 21 to 37 contain two changes compared to the initial version of the dashboard:
+1. there is a new paragraph element with an avocado emoji that will serve as logo
+2. there is a className argument in each component. These class names should match a class selector in style.css, which
+   will define the looks of each component. 
+
+for example, the header-description class assigned to the paragraph component starting with "Analyse the bevahiour of 
+avocado prices" has a corresponding selector in style.css:
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+}
+
+Lines 29 to 34 of style.css define the format for the header-description class selector. These will change the color, 
+margin, alignment, and maximum width of any component with className="header-description". All the components have 
+corresponding class selectors in the CSS file.
+
+
