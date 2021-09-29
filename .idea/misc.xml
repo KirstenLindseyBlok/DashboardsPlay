@@ -4,6 +4,13 @@
   <component name="RMarkdownSettings">
     <option name="renderProfiles">
       <map>
+        <entry key="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$APPLICATION_CONFIG_DIR$/scratches" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/explain.rmd">
           <value>
             <RMarkdownRenderProfile>
