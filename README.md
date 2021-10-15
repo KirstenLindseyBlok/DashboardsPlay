@@ -78,5 +78,3 @@ avocado prices" has a corresponding selector in style.css:
 Lines 29 to 34 of style.css define the format for the header-description class selector. These will change the color, 
 margin, alignment, and maximum width of any component with className="header-description". All the components have 
 corresponding class selectors in the CSS file.
-
-
